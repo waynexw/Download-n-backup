@@ -24,9 +24,8 @@ class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         
         
         #---------------------------------
-        
-        if __name__ == '__main__':
-          serverAddress = ('', 8080)
-          server = BaseHTTPServer.HTTPServer(serverAddress, RequestHandler)
-          server.server_forever()
+if __name__ == '__main__':
+    serverAddress = ('', 8080)
+    server = BaseHTTPServer.HTTPServer(serverAddress, RequestHandler)
+    server.server_forever()
           

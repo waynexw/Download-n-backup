@@ -50,3 +50,24 @@ x = mycol.insert_many(mylist)
 
 #print list of the _id values of the inserted documents:
 print(x.inserted_ids)
+
+#find one
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+x = mycol.find_one()
+
+print(x)
+
+#find all
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+for x in mycol.find():
+  print(x)

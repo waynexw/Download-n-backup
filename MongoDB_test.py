@@ -85,3 +85,15 @@ mydoc = mycol.find(myquery)
 
 for x in mydoc:
   print(x)
+
+# Sort the result alphabetically by name:
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+mydoc = mycol.find().sort("name")
+
+for x in mydoc:
+  print(x)

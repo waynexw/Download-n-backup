@@ -26,3 +26,44 @@ E:\DjangoWord\mysite\polls
 使用PYTHONPATH环境变量，在这个环境变量中输入相关的路径，不同的路径之间用逗号（英文的！)分开，如果PYTHONPATH 变量还不存在，可以创建它！
  
 路径会自动加入到sys.path中，而且可以在不同的python版本中共享，应该是一样较为方便的方法
+
+# example of envi virants in swagger.
+import os
+import uuid
+import json  
+import pymysql  # need to install pymysql first -wayne W
+import mysql.connector 
+from datetime import datetime, timedelta
+from flask import jsonify, abort, request, Blueprint
+
+from validate_email import validate_email
+REQUEST_API = Blueprint('request_api', __name__)
+
+
+def get_blueprint():
+    """Return the blueprint for the main app module"""
+    return REQUEST_API
+
+# initializaed local database via creation a new database
+
+# DB_NAME = "abc"
+DB_NAME = str(os.getenv('dbname1'))
+if DB_NAME == "None":
+    DB_NAME = "mydb"
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="www",  # please adjust the user name as same as the local MySQL's user name  -wayneW
+  password="5566"  # change the password as you defined in your MySQL database  -wayneW
+)
+
+mycursor = mydb.cursor()
+# 可以加一条判断 如果数据库已经存在 则跳过此步骤
+mycursor.execute("CREATE DATABASE " + DB_NAME)  # mydb is created to record the bookinfo. -wayneW
+
+mydb = mysql.connector.connect(
+  host="127.0.0.1",
+  user="www",   # please adjust the user name as same as local database user name  -wayneW
+  password="5566",  # change the password as you defined in your local database  -wayneW
+  database=DB_NAME  
+)

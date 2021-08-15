@@ -45,8 +45,8 @@ def get_blueprint():
     return REQUEST_API
 
 # initializaed local database via creation a new database
-
 # DB_NAME = "abc"
+# you can set dbname1=1,2,3 or book, car ..., but you should set it pre-start the program.
 DB_NAME = str(os.getenv('dbname1'))
 if DB_NAME == "None":
     DB_NAME = "mydb"
@@ -59,6 +59,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 # 可以加一条判断 如果数据库已经存在 则跳过此步骤
+# if mycursor then jump out.
 mycursor.execute("CREATE DATABASE " + DB_NAME)  # mydb is created to record the bookinfo. -wayneW
 
 mydb = mysql.connector.connect(

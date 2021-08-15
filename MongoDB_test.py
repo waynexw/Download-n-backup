@@ -128,3 +128,19 @@ x = mycol.insert_many(mylist)
 
 #print list of the _id values of the inserted documents:
 print(x.inserted_ids)
+
+# Change the address from "Valley 345" to "Canyon 123":
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+myquery = { "address": "Valley 345" }
+newvalues = { "$set": { "address": "Canyon 123" } }
+
+mycol.update_one(myquery, newvalues)
+
+#print "customers" after the update:
+for x in mycol.find():
+  print(x)

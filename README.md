@@ -1,2 +1,2 @@
-# Download-n-backup
-Download and backup the content of WORDS AND THEIR STORIES / voa in video-share platforms automatically.
+# Download-n-backup Project
+Download and backup the Data of WORDS AND THEIR STORIES or Videos / voa in video-share platforms automatically.

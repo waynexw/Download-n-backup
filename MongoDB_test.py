@@ -1,3 +1,4 @@
+# connect databases and make sure this connect exists.
 import pymongo
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -25,7 +26,8 @@ if "customers" in collist:
   
   print("The collection exists.")
 
-  import pymongo
+# insert data to customers.
+import pymongo
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["mydatabase"]
@@ -100,7 +102,6 @@ for x in mydoc:
   
   
 # Insert Multiple Documents, with Specified IDs
-
 import pymongo
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")

@@ -25,8 +25,10 @@ collist = mydb.list_collection_names()
 if "customers" in collist:
   
   print("The collection exists.")
+  
 
 # insert data to customers.
+
 import pymongo
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -117,17 +119,13 @@ mylist = [
   { "_id": 6, "name": "Sandy", "address": "Ocean blvd 2"},
   { "_id": 7, "name": "Betty", "address": "Green Grass 1"},
   { "_id": 8, "name": "Richard", "address": "Sky st 331"},
-  { "_id": 9, "name": "Susan", "address": "One way 98"},
-  { "_id": 10, "name": "Vicky", "address": "Yellow Garden 2"},
-  { "_id": 11, "name": "Ben", "address": "Park Lane 38"},
-  { "_id": 12, "name": "William", "address": "Central st 954"},
-  { "_id": 13, "name": "Chuck", "address": "Main Road 989"},
-  { "_id": 14, "name": "Viola", "address": "Sideway 1633"}
+  { "_id": 9, "name": "Susan", "address": "One way 98"}
 ]
 
 x = mycol.insert_many(mylist)
 
-#print list of the _id values of the inserted documents:
+# print list of the _id values of the inserted documents:
+
 print(x.inserted_ids)
 
 # Change the address from "Valley 345" to "Canyon 123":
@@ -142,6 +140,7 @@ newvalues = { "$set": { "address": "Canyon 123" } }
 
 mycol.update_one(myquery, newvalues)
 
-#print "customers" after the update:
+# print "customers" after the update:
+
 for x in mycol.find():
   print(x)

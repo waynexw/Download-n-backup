@@ -144,3 +144,8 @@ mycol.update_one(myquery, newvalues)
 
 for x in mycol.find():
   print(x)
+  
+# env viables:
+set Dabatype = mysql
+os.get(env)? os.get(env) = 'mysql'
+if datatype == 'mysql'

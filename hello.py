@@ -7,12 +7,11 @@ print db
 # When you need to set a sys env variable, you would have to set in sys advanced setting panel
 
 
-
 # new hello swagger api
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/waynew")
 def hello():
     return "Hello World!"
 

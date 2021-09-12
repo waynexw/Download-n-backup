@@ -1,5 +1,6 @@
 import urllib.request
 url = 'http://news.baidu.com/sports'
+
 #创建request对象
 req = urllib.request.Request(url)
 #发送请求，获取结果
@@ -8,7 +9,7 @@ data = response.read()
 content = data.decode()
 print(content)
 
-#-------------------2021 july updated -wayne W.
+#--------2021 july updated -wayne W.
 #!/usr/bin/python3
  
 import pymysql

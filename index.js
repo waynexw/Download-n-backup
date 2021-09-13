@@ -1,4 +1,4 @@
-//// C:\Users\hasee\Games\node1\index.js  环境变量在line 22，启发是通过设置环境变量来配置不同的数据库 - wayne W
+//// C:\Users\hasee\Games\node1\index.js  环境变量在line 22，启发是通过设置环境变量，配置不同的数据库 - wayneW
 
 const express = require('express')
 const app = express()
@@ -32,10 +32,10 @@ app.listen(port, () => {
 })
 
 
-#怎样在一个py文件中使用另一个py文件中变量，问题如下：
+#怎样在一个py文件中使用另一个py文件中变量 问题如下：
 # demo1 code:
 import requests
-r = requests.get("http://www.baidu.com")
+r = requests.get("http://www.aaaaa.com")
 r.encoding = r.apparent_encoding
 demo = r.text
 demo

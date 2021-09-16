@@ -1,5 +1,6 @@
 # connect databases and make sure this connect exists.
 import pymongo
+import os
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 

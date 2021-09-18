@@ -55,15 +55,9 @@ def index():
     #return render_template('index.html') 
     #return "<body><div <h3>This is a header</h3> <p>This is a paragraph.</p> </div></body>"
     
-# datetime object containing current date and time
-    #now = datetime.now()
-    #print("now =", now)
-    # dd/mm/YY H:M:S
-    #dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-    #print("date and time =", dt_string)
-    
+   
 
-### swagger specific ###
+### swagger specific
 SWAGGER_URL = '/swagger'
 API_URL = '/static/swagger.json'
 SWAGGERUI_BLUEPRINT = get_swaggerui_blueprint(

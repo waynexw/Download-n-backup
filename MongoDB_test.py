@@ -148,5 +148,6 @@ for x in mycol.find():
   
 # env viables:
 set Dabatype = mysql
+export dbtype=mysql # in bash of linux
 os.get(env)? os.get(env) = 'mysql'
 if datatype == 'mysql'

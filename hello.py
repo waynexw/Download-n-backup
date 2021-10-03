@@ -1,7 +1,8 @@
 print ("Hello world.")
 
-# set a temperory variable in cmd 
+# set a temperory variable in cmd windows
 set db = 1
+set db #to verify the value of db
 print db
 
 # When you need to set a sys env variable, you would have to set in sys advanced setting panel

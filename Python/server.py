@@ -7,9 +7,9 @@
 #     Page = '''\
 
 # <html>
-# <title>Welcome</title>
+# <title>Welcome to homepages</title>
 # <body>
-#   <h1>&emsp; Hello, web and Welcome to W Zone</h1>
+#   <h1>&emsp; Hello, Welcome to W Zone</h1>
 # </body>
 # </html>
 # '''
@@ -222,10 +222,3 @@ def delete_record(_id):
     if _id not in BOOK_REQUESTS:
         abort(404)
 
-    del BOOK_REQUESTS[_id]
-    # save the new book to jason file, further jobs: need to rewrite the file under the formatal style for read it easily. -wayne W
-    fo = open("./routes/data1.json", "w")
-    # json.dump(str(jason_data),fo)
-    fo.write( str(json.dumps(json_data)) )
-    fo.close()
-    return '', 204

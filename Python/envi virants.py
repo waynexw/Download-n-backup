@@ -1,4 +1,4 @@
-# python中添加环境变量
+# python add env virables 添加环境变量
 import sys
 sys.path
 系统环境是一个list，可以将自己需要的库添加进入，例如mysql库，hive库等等。有三种方式添加，均验证通过：

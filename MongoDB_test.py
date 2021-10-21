@@ -1,4 +1,4 @@
-# connect databases and make sure this connect exists.
+# Connect databases and make sure this connect exists.
 import pymongo
 import os
 
@@ -13,7 +13,6 @@ dblist = myclient.list_database_names()
 if "mydatabase" in dblist:
   
   print("The database exists.")
-
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 

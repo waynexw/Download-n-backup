@@ -1,6 +1,6 @@
 print ("Hello world.")
 
-# set a temperory variable in cmd windows
+# Set a temperory variable in cmd 
 set db = 1
 set db #to verify the value of db
 print db

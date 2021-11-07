@@ -1,4 +1,4 @@
-"""The Endpoints to manage the BOOK_REQUESTS"""
+"""The Endpoints to manage BOOK_REQUESTS"""
 # READ ME: before run app.py, kindly ensure that your client has already installed the MySQL database (like mysql-installer-web-community editoin) properly, and you have done with the initialization process.\ 
 # Pre-setting the Environment Variables in line 27: str(os.getenv('dbname'), before you run the app.py successfully,  -wayneW
 # In CMD, tap 'set dbname = bl-book ( database's name is up to U)', or if this variable is not worked. You'd better setting system env variables.

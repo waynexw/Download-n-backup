@@ -1,4 +1,4 @@
-# hello world example
+# a hello world example
 print ("Hello world.")
 
 # Set a temperory variable in cmd 

@@ -1,4 +1,4 @@
-# Creating a Database Connection to MySQL
+# Creating Database Connection to MySQL
 
 import mysql.connector
 mydb = mysql.connector.connect(

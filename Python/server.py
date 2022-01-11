@@ -1,6 +1,6 @@
 # import the BaseHTTPServer
 
-# class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
+# class the RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 #     '''Handle HTTP requsests by returning a fixed 'page','''
     
 #     # Page to send back - waynew.

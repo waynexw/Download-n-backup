@@ -32,8 +32,8 @@ app.listen(port, () => {
 })
 
 
-#怎样在一个py文件中使用另一个py文件中变量 问题如下：
-# demo1 code:
+#怎样在一个py文件中使用另一个py文件中变量,问题如下：
+# demo1 code  :
 import requests
 r = requests.get("http://www.aaaaa.com")
 r.encoding = r.apparent_encoding

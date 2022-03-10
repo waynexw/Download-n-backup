@@ -2,7 +2,7 @@ import urllib.request
 url = 'http://news.baidu.com/sports'
 
 
-# 创建request对象 url
+# 创建request对象url
 req = urllib.request.Request(url)
 
 # 发送请求，获取结果
@@ -25,7 +25,7 @@ cursor = db.cursor()
 # 使用 execute()  方法执行 SQL 查询 
 cursor.execute("SELECT VERSION()")
  
-# 使用 fetchone() 方法获取单条数据.
+# 使用 fetchone() 方法获取单条数据
 data = cursor.fetchone()
  
 print ("Database version : %s " % data)

@@ -205,5 +205,5 @@ try:
    # 向数据库提交
    db.commit()
 except:
-   # 发生错误时回滚
+   # 在发生错误时回滚
    db.rollback()

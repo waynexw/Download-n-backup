@@ -48,7 +48,7 @@ print(soup.prettify)
 
 # 在demo1中的demo变量存储了百度首页的信息，想在beauful1文件中直接使用，开始时按照其他教程将demo在demo1中定义成全局变量等等，
 # 但是感觉特别麻烦，后来查阅资料，发现可以将demo1文件像第三方库一样直接引入，方式如下：
-# 如果直接将demo1全部引入“import demo1”，程序还是会报错，所以就是使用哪个变量就从原来的文件中引入即可。
+# 如果直接将demo1全部引入the “import demo1”，程序还是会报错，所以就是使用哪个变量就从原来的文件中引入即可。
 from demo1 import demo
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(demo,"html.parser")

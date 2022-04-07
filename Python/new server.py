@@ -2,7 +2,7 @@ import urllib.request
 url = 'http://news.baidu.com/sports'
 
 
-# 创建request对象url
+# 创建request对象the url
 req = urllib.request.Request(url)
 
 # 发送请求，获取结果

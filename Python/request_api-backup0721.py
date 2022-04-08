@@ -1,4 +1,4 @@
-# backup on 20210721
+# THe backup on 20210721
 """Endpoints to manage BOOK_REQUESTS"""
 import uuid
 import json  
@@ -8,7 +8,6 @@ from flask import jsonify, abort, request, Blueprint
 
 from validate_email import validate_email
 REQUEST_API = Blueprint('request_api', __name__)
-
 
 def get_blueprint():
     """Return the blueprint for the main app module"""

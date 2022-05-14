@@ -6,7 +6,7 @@ Download, edit and beautify the Streaming Media Data of WORDS AND VIDEOS. / such
 
 项目首页的程序代码在：  ..\hasee\work\Games\js\blclass.js
 
-#745 [分享]免费下载音乐网站 https://www.chosic.com/free-music
+[分享]免费下载音乐网站 https://www.chosic.com/free-music
 如何拿到一个MP3文件的超链接：
 
 找到所需音乐，点击download
@@ -15,3 +15,4 @@ Download, edit and beautify the Streaming Media Data of WORDS AND VIDEOS. / such
 屏幕截图 2022-05-14 124912
 
 右键click here，选“复制链接地址”即可拿到当前MP3文件的超链接。
+以上参看agenda: 05/14/2022 #745

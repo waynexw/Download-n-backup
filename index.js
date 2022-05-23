@@ -1,4 +1,4 @@
-//// C:\Users\hasee\Games\node1\index.js  环境变量 line22，启发是通过设置环境变量，适用不同de数据库 - wayneW
+//// C:\Users\hasee\Games\node1\index.js  环境变量 at line22，启发是通过设置环境变量，适用不同de数据库 - wayneW
 
 const express = require('express')
 const app = express()

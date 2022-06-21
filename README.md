@@ -10,8 +10,8 @@ Download, edit and beautify Streaming Media Data of WORDS AND VIDEOS. / such as 
 如何拿到一个MP3文件的超链接：
 
 找到所需音乐，点击download
-再点击free download
-在弹出的窗口点download即可把MP3下载到本地
+再点击 free download
+在弹出的窗口点 download 即可把MP3下载到本地
 屏幕截图 2022-05-14 124912
 
 右键click here，选“复制链接地址”即可拿到当前MP3文件的超链接。

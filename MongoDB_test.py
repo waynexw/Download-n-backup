@@ -1,4 +1,4 @@
-# Connect databases and make sure the connection exists.
+# Connecting databases and make sure the connection exists.
 import pymongo
 import os
 

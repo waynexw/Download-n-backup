@@ -1,4 +1,4 @@
-# Convert the json file to Python 
+# Convert json files to Python 
 
 import json
 

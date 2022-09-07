@@ -1,4 +1,4 @@
-# import BaseHTTPServer
+# import the BaseHTTPServer
 
 # class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 #     '''Handle HTTP requsests by returning a fixed 'page','''

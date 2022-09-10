@@ -2,7 +2,7 @@
 """Endpoints to manage the BOOK_REQUESTS"""
 import uuid
 import json  
-import pymysql  # need to install pymysql first -wayne W 
+import pymysql  # need to install pymysql firstly -wayne W 
 from datetime import datetime, timedelta
 from flask import jsonify, abort, request, Blueprint
 

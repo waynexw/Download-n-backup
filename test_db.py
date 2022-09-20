@@ -1,4 +1,4 @@
-# Create Database Connectiones to MySQL
+# Create Database Connectiones to the MySQL
 # The new provision of everyday contribute
 
 import mysql.connector

@@ -1,4 +1,4 @@
-# Set a temperory variable in cmd 
+# Set temperory variables in cmd 
 set db = 1
 set db #to verify the value of db
 print db

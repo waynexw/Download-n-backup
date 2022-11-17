@@ -1,4 +1,4 @@
-# These backup on 20210721
+# These are backup on 20210721
 """Endpoints to manage BOOK_REQUESTS"""
 import uuid
 import json  

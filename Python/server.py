@@ -3,7 +3,7 @@
 # class RequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 #     '''Handle HTTP requsests by returning a fixed 'page','''
     
-#     # the Page to send back - waynew.
+#     # Page to send back - waynew.
 #     Page = '''\
 
 # <html>

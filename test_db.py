@@ -1,5 +1,5 @@
 # Create Database Connectiones to MySQL
-# The new provision of everyday contribute
+# The new provision of daily contribute
 
 import mysql.connector
 mydb = mysql.connector.connect(

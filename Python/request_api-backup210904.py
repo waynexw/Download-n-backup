@@ -1,5 +1,5 @@
 """Endpoints to manage BOOK_REQUESTS"""
-# READ ME: before running app.py, kindly ensure that your client has already installed the MySQL database (like mysql-installer-web-community editoin) properly, and you have done with the initialization process.\ 
+# READ ME: before running app.py, kindly ensure that your client has already installed MySQL database (est mysql-installer-web-community editoin) properly, and you have done with the initialization process.\ 
 # Pre-setting the Environment Variables in line 27: str(os.getenv('dbname'), before you run the app.py successfully,  -wayneW
 # In CMD, tap 'set dbname = bl-book ( database's name is up to U)', or if this variable is not worked. You'd better setting system env variables.
 # When you want to set a system env viriables please goto 'windows setting'->'about'->'senior setting'->'Env Viriables', and built a new sys variables, for instance. let dbname=bl-book-

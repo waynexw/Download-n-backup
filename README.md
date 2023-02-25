@@ -6,9 +6,10 @@ waynexw个人主页在#303
 
 在线文字转声音 https://www.ffkuaidu.com/ ； https://yuedu.data-baker.com/Index
 
-项目首页的程序代码在：  ..\hasee\work\Games\js\blclass.js
+项目首页的程序代码在  ..\hasee\work\Games\js\blclass.js
 
 [分享]免费下载音乐网站 https://www.chosic.com/free-music
+
 如何拿到一个MP3文件的超链接：
 
 找到所需音乐，点击download, 再点击free download, 在弹出的窗口download 即可把MP3下载到本地

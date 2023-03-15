@@ -1,6 +1,6 @@
 # VOA Publishing Platform n' memo 备忘录
 
-Downloading, editing and beautify Streaming Media Data of WORDS AND VIDEOS. / such as VOA in video-share platforms automatically.
+Downloading, editing and beautify Streaming Media Data of WORDS AND VIDEOS. / such as VOA English Learning in video-share platforms automatically.
 
 waynexw个人主页在#303
 

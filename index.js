@@ -1,4 +1,4 @@
-//// C:\Users\hasee\Games\node1\index.js  环境变量line22，启发是通过设置环境变量，suitable for不同数据库 - waynexW
+//// C:\Users\hasee\Games\node1\index.js  环境变量line22，启发是通过设置环境变量，suitable for different database - waynexW
 
 const express = require('express')
 const app = express()

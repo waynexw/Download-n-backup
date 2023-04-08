@@ -5,7 +5,7 @@ url = 'http://news.baidu.com/sports'
 # 创建request对象 url
 req = urllib.request.Request(url)
 
-# 发送请求，获取结果
+# 发送请求，获取结果.
 with urllib.request.urlopen(req) as response:
 data = response.read()
 content = data.decode()
@@ -16,7 +16,7 @@ print(content)
  
 import pymysql
  
-# 打开数据库de连接
+# 打开数据库的连接
 db = pymysql.connect("localhost","testuser","test123","TESTDB" )
  
 # 使用 cursor() 方法创建一个游标对象 cursor

@@ -29,7 +29,7 @@
 #     server = BaseHTTPServer.HTTPServer(serverAddress, RequestHandler)
 #     server.server_forever()
           
-# for the rutine work everyday -wayne W
+# for the rutine work daily -wayne W
     """The Endpoints to manage the BOOK_REQUESTS"""
 import uuid
 import json  

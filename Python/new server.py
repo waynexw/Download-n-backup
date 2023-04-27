@@ -202,7 +202,7 @@ sql = "DELETE FROM EMPLOYEE WHERE AGE > %s" % (20)
 try:
    # 执行SQL语句
    cursor.execute(sql)
-   # 向数据库提交
+   # 向数据库提交执行
    db.commit()
 except:
    # 在发生错误时回滚

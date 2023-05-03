@@ -58,7 +58,7 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
-# 可以加一条判断 如果数据库已经存在 则跳过此步骤
+# 可以加一条判断 如果数据库已经存在 则跳过此步
 # if mycursor then jump out.
 if DB_NAME = "mydb":
  mycursor.execute(write 'the database existed.')

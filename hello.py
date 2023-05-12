@@ -3,7 +3,7 @@ set db = 1
 set db #to verify the value of db
 print db
 
-# When you need to set a sys env variable, you would have to set in sys advanced setting panel
+# When you need to set a system env varable, you would have to set in sys advanced setting panel
 
 
 # new hello swagger api

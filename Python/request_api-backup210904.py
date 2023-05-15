@@ -1,8 +1,10 @@
 """Endpoints to manage the BOOK_REQUESTS"""
-# READ ME: before running app.py, kindly ensure that your client has already installed MySQL database (est mysql-installer-web-community editoin) properly, and you have done with the initialization process.\ 
+# READ ME: before running app.py, kindly ensure that your client has already installed MySQL database (est mysql-installer-web-community editoin) properly, and 
+# you have done with the initialization process.\ 
 # Pre-setting the Environment Variables in line 27: str(os.getenv('dbname'), before you run the app.py successfully,  -wayneW
 # In CMD, tap 'set dbname = bl-book ( database's name is up to U)', or if this variable is not worked. You'd better setting system env variables.
-# When you want to set a system env viriables please goto 'windows setting'->'about'->'senior setting'->'Env Viriables', and built a new sys variables, for instance. let dbname=bl-book-
+# When you want to set a system env viriables please goto 'windows setting'->'about'->'senior setting'->'Env Viriables', and built a new sys variables, 
+# for instance. let dbname=bl-book-
 # -Then you can check this system env variables using statement in Admin CMD like 'echo %dbname%'. If the check is OK, the program will be functionaly released.
 # If sys env variable is OK, but program yet isn't work, then try to restart VS Code, thus it should work correctly.
 # I notice that mysql database are not sensitive to case, so I set dbname = BL_book, but in fact the data name was set to bl_book.

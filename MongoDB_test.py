@@ -27,7 +27,7 @@ if "customers" in collist:
   print("The collection exists.")
   
 
-# insert data to customers.
+# insert data to the customers.
 
 import pymongo
 

@@ -1,4 +1,4 @@
-# Set some temperory variables in CMD 
+# Set some temp variables in CMD 
 set db = 1
 set db #to verify the value of db
 print db
